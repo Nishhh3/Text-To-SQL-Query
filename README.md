@@ -17,12 +17,8 @@ env/Scripts/activate #Windows
 pipenv shell #Mac
 source env/bin/activate #Linux
 ```
-3. install requirements.
-```sh
-pip install -r requirements.txt
-```
-4. add the data you want in database
-5. run the main.py file using streamlit server to serve the RAG
+3. add the data you want in database
+4. run the main.py file using streamlit server to serve the RAG
 ```sh
 streamlit run main.py
 ```
